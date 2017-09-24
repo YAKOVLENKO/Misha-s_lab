@@ -17,7 +17,7 @@ double max2(double x, double y) {
 	else return y;
 }
 
-double max3(double x, double y, double z) {  // ìîæíî íàïèñàòü  ìàõ2(max2(x, y), z);
+double max3(double x, double y, double z) {  // Ğ¼Ğ¾Ğ¶Ğ½Ğ¾ Ğ½Ğ°Ğ¿Ğ¸ÑĞ°Ñ‚ÑŒ  max2(max2(x, y), z);
 	if ((x >= y) && (x >= z)) return x;
 	if ((y >= x) && (y >= z)) return y;
 	if ((z >= y) && (z >= x)) return z;
